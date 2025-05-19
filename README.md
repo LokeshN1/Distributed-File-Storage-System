@@ -2,6 +2,23 @@
 
 A distributed file storage system inspired by Google Drive that implements chunking, replication, and fault tolerance in a distributed architecture.
 
+## System Screenshots
+
+### System Startup
+![System Startup](distributed_file_storage/screenshots/systemStartup.png)
+
+### File Upload Process
+![File Upload](distributed_file_storage/screenshots/uploadFile.png)
+
+### File Listing
+![Show Files](distributed_file_storage/screenshots/showFiles.png)
+
+### File Download
+![File Download](distributed_file_storage/screenshots/downloadFile.png)
+
+### File Deletion
+![File Deletion](distributed_file_storage/screenshots/deleteFile.png)
+
 ## Features
 
 - **File Chunking**: Splits large files into manageable chunks (1MB by default)
@@ -19,6 +36,7 @@ The system consists of four main components:
 2. **Metadata Server**: Manages file metadata and chunk locations
 3. **Client Application**: Provides user interface for file operations
 4. **Utility Libraries**: Provide common functionality like chunking and health monitoring
+
 
 ## Requirements
 
