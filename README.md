@@ -1,6 +1,6 @@
 # Distributed File Storage System
 
-A distributed file storage system inspired by Google Drive that implements chunking, replication, and fault tolerance in a distributed architecture.
+A distributed file storage system that implements chunking, replication, and fault tolerance in a distributed architecture.
 
 ## System Screenshots
 
